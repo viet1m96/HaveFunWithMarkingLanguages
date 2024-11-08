@@ -1,0 +1,66 @@
+schedule:
+  para:
+  - Day:
+      '#text': Wednesday
+    Group:
+      '#text': P3132
+    Hall:
+      '#text': Ауд. Актовый зал (1216/0 (усл))
+    Lesson:
+      '#text': '1'
+    Name:
+      '#text': Программирование
+    Place:
+      '#text': ул.Ломоносова, д.9, лит. М
+    Teacher:
+      '#text': Гаврилов Антон Валерьевич
+    Time:
+      '#text': 8:20-10:00
+  - Day:
+      '#text': Wednesday
+    Group:
+      '#text': P3132
+    Hall:
+      '#text': Ауд. 1324
+    Lesson:
+      '#text': '2'
+    Name:
+      '#text': Программирование
+    Place:
+      '#text': Кронверкский пр., д.49, лит.А
+    Teacher:
+      '#text': Бобрусь Александр Владимирович
+    Time:
+      '#text': 11:40-15:00
+  - Day:
+      '#text': Friday
+    Group:
+      '#text': P3132
+    Hall:
+      '#text': Ауд. 2407
+    Lesson:
+      '#text': '1'
+    Name:
+      '#text': Математический анализ
+    Place:
+      '#text': Кронверкский пр., д.49, лит.А
+    Teacher:
+      '#text': Правдин Константин Владимирович
+    Time:
+      '#text': 10:00-13:30
+  - Day:
+      '#text': Friday
+    Group:
+      '#text': P3132
+    Hall:
+      '#text': Ауд. 1428
+    Lesson:
+      '#text': '2'
+    Name:
+      '#text': Основы дискретной математики (базовый уровень)
+    Place:
+      '#text': Кронверкский пр., д.49, лит.А
+    Teacher:
+      '#text': Поляков Владимир Иванович
+    Time:
+      '#text': 16:50-20:00

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schedule>
+    <para>
+        <Group>P3132</Group>
+        <Day>Wednesday</Day>
+        <Lesson>1</Lesson>
+        <Name>Программирование</Name>
+        <Time>8:20-10:00</Time>
+        <Teacher>Гаврилов Антон Валерьевич</Teacher>
+        <Hall>Ауд. Актовый зал (1216/0 (усл))</Hall>
+        <Place>ул.Ломоносова, д.9, лит. М</Place>
+    </para>
+    <para>
+        <Group>P3132</Group>
+        <Day>Wednesday</Day>
+        <Lesson>2</Lesson>
+        <Name>Программирование</Name>
+        <Time>11:40-15:00</Time>
+        <Teacher>Бобрусь Александр Владимирович</Teacher>
+        <Hall>Ауд. 1324</Hall>
+        <Place>Кронверкский пр., д.49, лит.А</Place>
+    </para>
+    <para>
+        <Group>P3132</Group>
+        <Day>Friday</Day>
+        <Lesson>1</Lesson>
+        <Name>Математический анализ</Name>
+        <Time>10:00-13:30</Time>
+        <Teacher>Правдин Константин Владимирович</Teacher>
+        <Hall>Ауд. 2407</Hall>
+        <Place>Кронверкский пр., д.49, лит.А</Place>
+    </para>
+    <para>
+        <Group>P3132</Group>
+        <Day>Friday</Day>
+        <Lesson>2</Lesson>
+        <Name>Основы дискретной математики (базовый уровень)</Name>
+        <Time>16:50-20:00</Time>
+        <Teacher>Поляков Владимир Иванович</Teacher>
+        <Hall>Ауд. 1428</Hall>
+        <Place>Кронверкский пр., д.49, лит.А</Place>
+    </para>
+
+</schedule>
