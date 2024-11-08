@@ -1,22 +1,38 @@
 import time
+import compulsory.xml_to_yaml
+import dop1.xml_to_yaml
+import dop2.xml_to_yaml
+import dop3.xml_to_yaml
 
-from compulsory.xml_to_yaml import process
-from dop3.xml_to_yaml import convert_xml_to_yaml
 start_time = time.time()
 for i in range(100):
-    process()
+    compulsory.xml_to_yaml.process()
 end_time = time.time()
 t1 = end_time - start_time
 
 start_time = time.time()
 for i in range(100):
-    convert_xml_to_yaml("./input.xml", "./output.yaml")
+    dop2.xml_to_yaml.process()
 end_time = time.time()
 t2 = end_time - start_time
 
-if t1 > t2:
-    print("compulsory is longer than dop3")
-elif t2 > t1:
-    print("compulsory is shorter than dop3")
-else:
-    print("they equal")
+start_time = time.time()
+for i in range(100):
+    dop1.xml_to_yaml.process()
+end_time = time.time()
+t3 = end_time - start_time
+
+start_time = time.time()
+for i in range(100):
+    dop3.xml_to_yaml.convert_xml_to_yaml("./input.xml", "./output.yaml")
+end_time = time.time()
+t4 = end_time - start_time
+
+t1 = ("t1", t1)
+t2 = ("t2", t2)
+t3 = ("t3", t3)
+t4 = ("t4", t4)
+all_times = [t1, t2, t3, t4]
+
+sorted_times = sorted(all_times, key=lambda x: x[1])
+print(sorted_times)
